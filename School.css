@@ -1,0 +1,56 @@
+h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+body{
+    text-align: center;
+    font-family: "Rowdies", cursive;
+}
+.menunavbar{
+    top: 0;
+    z-index: 99999;
+    position: sticky;
+}
+
+html {
+    scroll-behavior: smooth
+}
+#home {
+    background: linear-gradient(#78e3d5 0%, #4b6965 100%);
+    color: #FFFF;
+        bottom: 0;
+        z-index: 9;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#imga {
+    transition: transform .2s;
+}
+
+#imga:hover {
+    transform: scale(0.9);
+}
+#AC{
+    background-color: aqua;
+}
+marquee{
+    font-size: 20px;
+}
+.campus-life{
+    width: 100%;
+    font-size: 20px;
+    padding: 6px 22px;
+}
+.campus-life i{
+    float: right;
+}
+#a1{
+    margin-top: 200px;
+}
+
+
